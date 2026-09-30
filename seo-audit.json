@@ -1,0 +1,167 @@
+{
+  "validation": "passed",
+  "page_count": 14,
+  "sitemap_url_count": 12,
+  "polished_gallery_images": 10,
+  "public_indexing": "Private review deployment; public domain launch required",
+  "pages": [
+    {
+      "page": "about/index.html",
+      "title": "About CPS Prestige Construction | Acworth & Atlanta",
+      "description": "Meet CPS Prestige Construction, a family-owned remodeling company serving all of metro Atlanta from its Acworth, Georgia base.",
+      "robots": "index,follow,max-image-preview:large",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "atlanta-remodeling/index.html",
+      "title": "Serving All Metro Atlanta | CPS Prestige Remodeling",
+      "description": "CPS Prestige Construction serves all of metro Atlanta with remodeling, construction, flooring, tile, painting and drywall. Based in Acworth, Georgia.",
+      "robots": "index,follow,max-image-preview:large",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "construction/index.html",
+      "title": "Atlanta Construction, Additions & Decks | CPS Prestige",
+      "description": "Construction, home additions, deck installation and repairs across metro Atlanta. Discuss your project with CPS Prestige Construction. Free estimates.",
+      "robots": "index,follow,max-image-preview:large",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "contact/index.html",
+      "title": "Free Remodeling Quote in Metro Atlanta | CPS Prestige",
+      "description": "Request a free quote for remodeling, flooring, tile, construction, painting or drywall anywhere in metro Atlanta. Call 404-542-8325. Hablamos Espa\u00f1ol.",
+      "robots": "index,follow,max-image-preview:large",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "flooring-tile/index.html",
+      "title": "Atlanta Flooring & Tile Installation | CPS Prestige",
+      "description": "Flooring and tile installation across metro Atlanta. Explore floor finishes, shower tile and backsplash ideas. Request a free quote from CPS Prestige.",
+      "robots": "index,follow,max-image-preview:large",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "index.html",
+      "title": "Atlanta Remodeling, Flooring & Tile | CPS Prestige",
+      "description": "Serving all of metro Atlanta: home remodeling, construction, flooring, tile, painting and drywall. Call CPS Prestige Construction at 404-542-8325.",
+      "robots": "index,follow,max-image-preview:large",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "page": "leave-review/index.html",
+      "title": "Leave a Review | CPS Prestige Construction",
+      "description": "Share your experience with CPS Prestige Construction.",
+      "robots": "noindex,follow",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "painting-drywall/index.html",
+      "title": "Atlanta Painting & Drywall Services | CPS Prestige",
+      "description": "Interior and exterior painting, drywall installation and finishing throughout metro Atlanta. Call CPS Prestige Construction for a free project quote.",
+      "robots": "index,follow,max-image-preview:large",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "pay-invoice/index.html",
+      "title": "Pay Invoice | CPS Prestige Construction",
+      "description": "Customer invoice payments for CPS Prestige Construction.",
+      "robots": "noindex,follow",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "privacy/index.html",
+      "title": "Privacy Information | CPS Prestige Construction",
+      "description": "Learn how contact requests work on the CPS Prestige Construction website and how information you email is shared with the business.",
+      "robots": "index,follow,max-image-preview:large",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "projects/index.html",
+      "title": "Remodeling Project Photos | CPS Prestige Construction",
+      "description": "Browse original CPS Prestige project photos showing kitchens, interior renovations, roofs, framing and exterior work.",
+      "robots": "index,follow,max-image-preview:large",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "remodeling/index.html",
+      "title": "Atlanta Home, Kitchen & Bathroom Remodeling | CPS",
+      "description": "Kitchen, bathroom, basement and home remodeling throughout metro Atlanta. CPS Prestige Construction brings care and experience to your renovation.",
+      "robots": "index,follow,max-image-preview:large",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/index.html",
+      "title": "Atlanta Remodeling & Home Improvement Services | CPS",
+      "description": "Explore home remodeling, construction, flooring, tile, painting and drywall services across metro Atlanta. Request a free quote from CPS Prestige.",
+      "robots": "index,follow,max-image-preview:large",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "sitemap/index.html",
+      "title": "Sitemap | CPS Prestige Construction",
+      "description": "Explore CPS Prestige Construction pages, services and project photos for homeowners across metro Atlanta.",
+      "robots": "index,follow,max-image-preview:large",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    }
+  ]
+}

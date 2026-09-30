@@ -1,0 +1,3 @@
+Built-in image editing used for construction-polished.png and construction-polished.webp. Prompt: Preserve the house architecture and landscape composition. Improve facade exposure, highlight/shadow balance, white balance, subtle realistic contrast and crisp detail for natural architectural website photography. No text or watermark. Original retained as construction-original.jpg.
+
+Our Work gallery: all 10 original portfolio inputs individually polished using image generation. Prompt requests balanced exposure, natural richer color, subtle crisp detail, controlled highlights and clearer shadows. Preserve structure, objects, materials, people, truck lettering and work-in-progress status. Outputs optimized to WebP for delivery.

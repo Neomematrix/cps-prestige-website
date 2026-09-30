@@ -1,2 +1,96 @@
-# cps-prestige-website
-CPS PRESTIGE LLC
+# CPS Prestige Construction website
+
+Complete editable source for a modern static website. No paid theme, framework subscription, or package installation is required. All HTML, CSS, JavaScript, downloaded original CPS photos, optimized WebP photos, favicon, metadata, sitemap and robots file are included.
+
+## Edit and rebuild
+
+- Edit page content and SEO fields in `build.py`.
+- Edit appearance in `dist/styles.css`.
+- Edit mobile navigation and quote email behavior in `dist/main.js`.
+- Run `python3 build_github_pages.py` to regenerate GitHub Pages HTML.
+- Preview locally: `python3 -m http.server 8000 --directory dist`, then open http://localhost:8000.
+- Do not open HTML by double-clicking; root-relative navigation needs a web server.
+
+## Publish on GitHub Pages
+
+1. Create a public repository named `cps-prestige-website` in the Neomematrix account. Initialize it with a README.
+2. Extract the source ZIP. Upload the contents of the `CPS-Prestige-Website` folder to the repository root, including `.github/workflows/pages.yml` and `dist/`. Do not upload the ZIP itself as the site.
+3. Open repository Settings > Pages. Set Source to GitHub Actions.
+4. Push to `main`, or run Publish CPS website from Actions. Wait until the deployment succeeds.
+5. The expected shareable website URL is `https://neomematrix.github.io/cps-prestige-website/`. This URL is not live until the deployment succeeds.
+
+The included workflow rebuilds metadata, sitemap and navigation using the actual GitHub Pages URL. It supports project paths such as `/cps-prestige-website/` so images and page links work. For local GitHub-path testing, run `python3 build_github_pages.py`, serve `dist/` mounted at that path, or rebuild with SITE_URL set to an HTTPS origin without a path for local root serving.
+
+For a future custom domain, configure that domain in GitHub Pages settings before deploying. The workflow uses the Pages base URL. For a separate static host, run `build.py` with SITE_URL set to the final domain, then upload the contents of `dist/`. Leave the original CPS website running until the replacement is verified.
+
+## Quote requests
+
+Phone and email links work. The quote form opens the visitor's email app; it does not send automatically and has no backend database. Visitors must press Send in their email app. Call and email alternatives are visible. To collect leads directly from browsers, connect a form handler before launch and update the privacy notice. Do not insert private API keys into browser JavaScript.
+
+## Verify business details before public launch
+
+- Current source homepage/footer: 5515 Allatoona Gwty, Acworth.
+- Current source contact page: 5515 Glade Rd SE, Acworth.
+- Street address was intentionally omitted because these conflict. The new site uses Acworth, GA 30102. Confirm the correct address and add it to visible contact details and JSON-LD.
+- Phone retained: 404-542-8325. Email retained: cpsprestigeconstruction@gmail.com.
+- The original site states 22 years of experience; the new site attributes this statement. Confirm the current experience claim.
+- Atlanta-area inquiries are targeted as requested. Confirm actual service boundaries before expanding city claims.
+- No invented ratings, reviews, license numbers, certification claims, warranties, hours or project locations were added.
+- Text explaining project steps was newly written; confirm it matches your process.
+
+## Assets
+
+The logo and every photo were downloaded from the existing CPS public website; original source URLs are in `asset-sources.json` in index order. Files `photo-0.png` through `photo-27.jpg` preserve those originals. Optimized WebP images include orientation correction. Confirm the company's rights to reuse stock inspiration photos and project photos. Images from Re-Bath and Magnet were not copied. Hero photo is original-site design inspiration, not represented as a CPS project. Project gallery uses original-site portfolio images, except the Interior framing in progress image, replaced at the user’s request with pexels-rstephens-33405084.jpg. Its original and optimized copies are included as interior-framing-original.jpg and interior-framing.webp.
+
+## SEO included
+
+- Unique server-readable titles and descriptions on 10 pages.
+- Crawlable HTML service pages, headings and internal navigation.
+- Canonical URLs, Open Graph text, mobile viewport and theme color.
+- GeneralContractor business data, WebSite data and breadcrumbs.
+- Actual phone and email; Acworth locality and Atlanta-area targeting.
+- XML sitemap and robots.txt.
+- Descriptive image alt text, WebP images and lazy loading below the hero.
+
+SEO metadata does not guarantee ranking. The private review host cannot be indexed by Google. Launch on a public domain, verify it in Google Search Console, submit `/sitemap.xml`, and request indexing. Claim or verify the Google Business Profile, keep the company name/address/phone consistent, and add genuine project descriptions and customer reviews over time. Search Console and Business Profile were not configured by this build.
+
+Official references:
+https://developers.google.com/search/docs/appearance/title-link
+https://developers.google.com/search/docs/appearance/snippet
+https://developers.google.com/search/docs/appearance/structured-data/local-business
+https://developers.google.com/search/docs/appearance/establish-business-details
+
+## Migration
+
+Keep or redirect existing URLs `/services`, `/remodeling`, `/painting-drywall`, `/about`, and `/contact` to their new trailing-slash equivalents. Review the original sitemap for other indexed URLs and add host-level permanent redirects individually. A full audit of the old Wix backend, private files, inbox or unpublished content was not available. This is complete new-site source, not an export of Wix's proprietary platform source.
+
+The Atlanta service-area image beside “Tell us where your project is” was replaced with the user-supplied pexels-curtis-adams-1694007-7601163.jpg. Original and optimized copies are included as service-area-home-original.jpg and service-area-home.webp. This image is inspiration, not identified as a CPS project.
+
+Painting & Drywall now uses both user-supplied images, pexels-planka-34046207.jpg and pexels-joaojesusdesign-8239799.jpg, side by side on all service cards and the service detail page. Originals and optimized WebP versions are included as painting-roller and painting-can assets.
+
+## Owner review mockup additions
+
+The Construction & Decks image is now a polished version of user-supplied pexels-chris-pennes-2148746480-32802992.jpg. It is inspiration imagery, not claimed as a CPS project. Hablamos Español is displayed in the header, contact information, footer and invoice page.
+
+Pay invoice and Leave a review are working navigation links to explicitly labeled demo pages. Neither collects card details, charges payments, sends reviews, nor stores user entries. Invoice amounts are fictional examples. Both demo pages are excluded from the sitemap and use noindex. The owner must provide a secure payment portal and the exact Google review URL before making these operational. Set PAYMENT_URL and REVIEW_URL when running build.py to replace the demos with external provider links. Use HTTPS URLs; do not put secret keys in these values.
+
+## Flooring & Tile update
+
+Home is now an explicit header navigation link on every page. Flooring & Tile is the fourth service, with a dedicated /flooring-tile/ page, a five-photo inspiration gallery, a quote-form selection and sitemap entry. All five supplied Pexels photos are included as flooring-0 through flooring-4, with original JPEG and optimized WebP versions. They are described as inspiration rather than CPS project evidence. Written service descriptions should be confirmed by the owner before public launch.
+
+## Metro Atlanta coverage and SEO update
+
+The owner confirmed coverage of all metro Atlanta. Hero text, top bar, footer, contact information, about text, service pages and service-area copy now state this clearly. Acworth remains the actual business base; it is not the service limit.
+
+Each core service has a distinct Atlanta-focused title and description. Business JSON-LD names the Atlanta metropolitan area and representative cities, the four service pages have Service JSON-LD, and the business offer catalog links to each service. No keyword meta tag is used because Google ignores it. Review/payment demos and 404 remain noindex. Titles, descriptions, canonical URLs, sitemap entries, schema and internal references are verified locally. This is source validation, not a Google Rich Results Test or Search Console indexing check.
+
+PUBLIC LAUNCH STILL REQUIRED: The review host is owner-private. Its HTML tags cannot bypass that access requirement. On a public launch, rebuild with SITE_URL=https://www.cpsremodeling.com, deploy the site publicly, verify Search Console, submit sitemap.xml, and use URL Inspection. Update the Google Business Profile website and real service area; resolve the existing conflicting street addresses with the owner before adding a street address. Rankings are not guaranteed by any meta tag.
+
+Hero kitchen photo edited with the built-in image-editing tool: preserve room composition and objects; improve balanced exposure, white cabinet luminosity, warm floor tones, natural light and crisp detail. Source image photo-2.jpg retained. Polished hero is separate from the original service-card photo.
+
+The About CPS photo was replaced with user-supplied pexels-curtis-adams-1694007-4800176.jpg. Original and optimized versions are included as about-home-original.jpg and about-home.webp. This is inspiration imagery, not represented as a CPS project.
+
+## Portfolio polish and sitemap
+All ten Our Work images have professionally polished WebP versions named `gallery-*-polished.webp`. Original assets remain included. Image edits improve exposure, color and detail while preserving project conditions. Review image accuracy with the owner before public launch.
+
+The footer links to `/sitemap/`, a visitor directory. `/sitemap.xml` lists every indexable page, including this directory; `robots.txt` points crawlers to it. Demo payment and review pages are excluded. Rebuild with the final public `SITE_URL` before launch and submit that domain’s XML sitemap in Google Search Console. A sitemap helps discovery but does not guarantee search ranking.
