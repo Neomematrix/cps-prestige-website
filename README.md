@@ -7,21 +7,26 @@ Complete editable source for a modern static website. No paid theme, framework s
 - Edit page content and SEO fields in `build.py`.
 - Edit appearance in `dist/styles.css`.
 - Edit mobile navigation and quote email behavior in `dist/main.js`.
-- Run `python3 build_github_pages.py` to regenerate GitHub Pages HTML.
+- Run `python3 build.py` to regenerate HTML.
 - Preview locally: `python3 -m http.server 8000 --directory dist`, then open http://localhost:8000.
 - Do not open HTML by double-clicking; root-relative navigation needs a web server.
 
-## Publish on GitHub Pages
+## Production domain
 
-1. Create a public repository named `cps-prestige-website` in the Neomematrix account. Initialize it with a README.
-2. Extract the source ZIP. Upload the contents of the `CPS-Prestige-Website` folder to the repository root, including `.github/workflows/pages.yml` and `dist/`. Do not upload the ZIP itself as the site.
-3. Open repository Settings > Pages. Set Source to GitHub Actions.
-4. Push to `main`, or run Publish CPS website from Actions. Wait until the deployment succeeds.
-5. The expected shareable website URL is `https://neomematrix.github.io/cps-prestige-website/`. This URL is not live until the deployment succeeds.
+The private review copy uses its review domain. For the actual CPS domain, run:
 
-The included workflow rebuilds metadata, sitemap and navigation using the actual GitHub Pages URL. It supports project paths such as `/cps-prestige-website/` so images and page links work. For local GitHub-path testing, run `python3 build_github_pages.py`, serve `dist/` mounted at that path, or rebuild with SITE_URL set to an HTTPS origin without a path for local root serving.
+```bash
+SITE_URL=https://www.cpsremodeling.com python3 build.py
+```
 
-For a future custom domain, configure that domain in GitHub Pages settings before deploying. The workflow uses the Pages base URL. For a separate static host, run `build.py` with SITE_URL set to the final domain, then upload the contents of `dist/`. Leave the original CPS website running until the replacement is verified.
+On Windows PowerShell:
+
+```powershell
+$env:SITE_URL="https://www.cpsremodeling.com"
+python build.py
+```
+
+Upload the contents of `dist/` to a static host. The host must serve `/folder/index.html` for folder URLs and use `404.html` for unknown paths. HTTPS is required for launch. Leave the existing CPS website running until the replacement is verified. Sites registration details in `.openai/hosting.json` apply only to the private review host, not an independent hosting account.
 
 ## Quote requests
 

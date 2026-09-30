@@ -1,7 +1,7 @@
 {
   "validation": "passed",
-  "page_count": 14,
-  "sitemap_url_count": 12,
+  "page_count": 36,
+  "sitemap_url_count": 19,
   "polished_gallery_images": 10,
   "public_indexing": "Private review deployment; public domain launch required",
   "pages": [
@@ -142,6 +142,126 @@
       ]
     },
     {
+      "page": "services/additions-structural-construction/index.html",
+      "title": "Atlanta Home Additions & Structural Construction | CPS",
+      "description": "Home additions, structural construction and interior framing across metro Atlanta. Discuss your project and request a free quote from CPS Prestige Construction.",
+      "robots": "index,follow,max-image-preview:large",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/basement-remodeling/index.html",
+      "title": "Basement Remodeling \u2014 Page Moved | CPS Prestige",
+      "description": "Basement Remodeling is now included in our combined interior basement remodeling service.",
+      "robots": "noindex,follow",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/deck-construction-repair/index.html",
+      "title": "Deck Construction Repair \u2014 Page Moved | CPS Prestige",
+      "description": "Deck Construction Repair is now included in our combined decks porches patios service.",
+      "robots": "noindex,follow",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/decks-porches-patios/index.html",
+      "title": "Atlanta Decks, Porches & Patios | CPS Prestige",
+      "description": "Deck construction and repair, porch construction and patio remodeling across metro Atlanta. Create a new outdoor space or update the one you have.",
+      "robots": "index,follow,max-image-preview:large",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/drywall-installation-finishing/index.html",
+      "title": "Drywall Installation Finishing \u2014 Page Moved | CPS Prestige",
+      "description": "Drywall Installation Finishing is now included in our combined painting drywall service.",
+      "robots": "noindex,follow",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/exterior-areas-remodeling/index.html",
+      "title": "Exterior Areas Remodeling \u2014 Page Moved | CPS Prestige",
+      "description": "Exterior Areas Remodeling is now included in our combined exterior remodeling service.",
+      "robots": "noindex,follow",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/exterior-painting/index.html",
+      "title": "Exterior Painting \u2014 Page Moved | CPS Prestige",
+      "description": "Exterior Painting is now included in our combined painting drywall service.",
+      "robots": "noindex,follow",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/exterior-remodeling/index.html",
+      "title": "Atlanta Exterior Remodeling | CPS Prestige",
+      "description": "Exterior remodeling across metro Atlanta, including siding, brick, stone, stucco, exterior tile, roofing, windows and doors.",
+      "robots": "index,follow,max-image-preview:large",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/flooring-installation/index.html",
+      "title": "Atlanta Flooring Installation | Laminate, Wood & Tile | CPS",
+      "description": "Laminate, wood and tile flooring installation for homes across metro Atlanta. Contact CPS Prestige Construction to discuss materials and request a free quote.",
+      "robots": "index,follow,max-image-preview:large",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/house-additions/index.html",
+      "title": "House Additions \u2014 Page Moved | CPS Prestige",
+      "description": "House Additions is now included in our combined additions structural construction service.",
+      "robots": "noindex,follow",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
       "page": "services/index.html",
       "title": "Atlanta Remodeling & Home Improvement Services | CPS",
       "description": "Explore home remodeling, construction, flooring, tile, painting and drywall services across metro Atlanta. Request a free quote from CPS Prestige.",
@@ -149,6 +269,150 @@
       "schema_types": [
         "GeneralContractor",
         "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/interior-basement-remodeling/index.html",
+      "title": "Atlanta Interior & Basement Remodeling | CPS Prestige",
+      "description": "Basement finishing and interior remodeling across metro Atlanta. Turn unused space into useful rooms and update existing interiors with layouts and finishes that suit your home.",
+      "robots": "index,follow,max-image-preview:large",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/interior-painting/index.html",
+      "title": "Interior Painting \u2014 Page Moved | CPS Prestige",
+      "description": "Interior Painting is now included in our combined painting drywall service.",
+      "robots": "noindex,follow",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/interior-spaces-remodeling/index.html",
+      "title": "Interior Spaces Remodeling \u2014 Page Moved | CPS Prestige",
+      "description": "Interior Spaces Remodeling is now included in our combined interior basement remodeling service.",
+      "robots": "noindex,follow",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/kitchen-bathroom-remodeling/index.html",
+      "title": "Kitchen & Bathroom Remodeling in Atlanta | CPS Prestige",
+      "description": "Kitchen and bathroom remodeling and tile installation across metro Atlanta. Cabinets, countertops, showers, backsplashes and flooring by CPS Prestige Construction.",
+      "robots": "index,follow,max-image-preview:large",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/kitchen-bathroom-tile/index.html",
+      "title": "Kitchen Bathroom Tile \u2014 Page Moved | CPS Prestige",
+      "description": "Kitchen Bathroom Tile is now included in our combined kitchen bathroom remodeling service.",
+      "robots": "noindex,follow",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/painting-drywall/index.html",
+      "title": "Atlanta Painting & Drywall | CPS Prestige",
+      "description": "Interior and exterior painting, drywall installation and drywall finishing for homes across metro Atlanta. We prepare walls, ceilings and exterior surfaces for clean, coordinated finishes.",
+      "robots": "index,follow,max-image-preview:large",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/patio-remodeling/index.html",
+      "title": "Patio Remodeling \u2014 Page Moved | CPS Prestige",
+      "description": "Patio Remodeling is now included in our combined decks porches patios service.",
+      "robots": "noindex,follow",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/porch-construction/index.html",
+      "title": "Porch Construction \u2014 Page Moved | CPS Prestige",
+      "description": "Porch Construction is now included in our combined decks porches patios service.",
+      "robots": "noindex,follow",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/roof-remodeling/index.html",
+      "title": "Roof Remodeling \u2014 Page Moved | CPS Prestige",
+      "description": "Roof Remodeling is now included in our combined exterior remodeling service.",
+      "robots": "noindex,follow",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/siding-replacement-remodeling/index.html",
+      "title": "Siding Replacement Remodeling \u2014 Page Moved | CPS Prestige",
+      "description": "Siding Replacement Remodeling is now included in our combined exterior remodeling service.",
+      "robots": "noindex,follow",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/structural-construction/index.html",
+      "title": "Structural Construction \u2014 Page Moved | CPS Prestige",
+      "description": "Structural Construction is now included in our combined additions structural construction service.",
+      "robots": "noindex,follow",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "services/window-door-installation/index.html",
+      "title": "Window Door Installation \u2014 Page Moved | CPS Prestige",
+      "description": "Window Door Installation is now included in our combined exterior remodeling service.",
+      "robots": "noindex,follow",
+      "schema_types": [
+        "GeneralContractor",
+        "WebPage",
+        "Service",
         "BreadcrumbList"
       ]
     },

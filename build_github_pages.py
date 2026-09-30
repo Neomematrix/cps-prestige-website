@@ -14,6 +14,8 @@ for path in (root/'dist').rglob('*.html'):
     text = path.read_text()
     if base:
         text = re.sub(r'(\b(?:href|src|action)=[\"\'])/(?!/)', lambda m:m.group(1)+base+'/', text)
+    if base:
+        text = re.sub(r'(content=[\"\']0;url=)/(?!/)', lambda m:m.group(1)+base+'/', text)
     path.write_text(text)
 (root/'dist'/'.nojekyll').touch()
 for path in (root/'dist').rglob('*.html'):
@@ -31,3 +33,9 @@ for loc in ET.parse(root/'dist'/'sitemap.xml').findall('.//{http://www.sitemaps.
     assert local.exists(), local
 assert 'Sitemap: '+url+'/sitemap.xml' in (root/'dist'/'robots.txt').read_text()
 print('GitHub Pages build passed: links, assets, canonical domain and sitemap.')
+
+for path in (root/'dist').rglob('*.html'):
+    for destination in re.findall(r'content=["\']0;url=([^"\']+)', path.read_text()):
+        assert not base or destination.startswith(base+'/'), (path, destination)
+        assert (root/'dist'/destination[len(base):].lstrip('/')/'index.html').exists(), (path, destination)
+print('Former service URL redirects also passed.')

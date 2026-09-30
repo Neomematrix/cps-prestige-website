@@ -1,0 +1,580 @@
+{
+  "services/kitchen-bathroom-remodeling": {
+    "photos": [
+      {
+        "file": "kitchen-bathroom-9.webp",
+        "alt": "Modern white kitchen with a patterned tile backsplash and wood counters"
+      },
+      {
+        "file": "kitchen-bathroom-11-v2.webp",
+        "alt": "Kitchen with a metallic mosaic backsplash and range hood"
+      },
+      {
+        "file": "kitchen-bathroom-8.webp",
+        "alt": "White kitchen cabinets with a subway tile backsplash"
+      },
+      {
+        "file": "kitchen-bathroom-7.webp",
+        "alt": "Kitchen sink with a dark mosaic tile backsplash"
+      },
+      {
+        "file": "kitchen-bathroom-10.webp",
+        "alt": "Kitchen cooktop with a stone backsplash and cream cabinets"
+      },
+      {
+        "file": "kitchen-bathroom-12.webp",
+        "alt": "Bathroom with a glass shower, tan tile and bathtub"
+      },
+      {
+        "file": "kitchen-bathroom-3.webp",
+        "alt": "White bathroom vanity beside a tiled tub and shower"
+      },
+      {
+        "file": "kitchen-bathroom-1.webp",
+        "alt": "White marble-look shower tile with black fixtures"
+      },
+      {
+        "file": "kitchen-bathroom-2.webp",
+        "alt": "Bathroom with textured gray tile and a glass shower"
+      },
+      {
+        "file": "kitchen-bathroom-5.webp",
+        "alt": "White subway tile bath surround with a dark blue accent"
+      },
+      {
+        "file": "kitchen-bathroom-6.webp",
+        "alt": "White shower tile with a black and white patterned accent"
+      },
+      {
+        "file": "kitchen-bathroom-4.webp",
+        "alt": "Bathroom with a tiled bathtub surround and pink towels"
+      }
+    ],
+    "buttons": [],
+    "layout": "feature",
+    "compact_hero": true,
+    "consolidated_copy": true,
+    "gallery_layout": "kitchen-bathroom",
+    "heading": "Atlanta Kitchen & Bathroom Remodeling",
+    "tagline": "",
+    "introduction": "CPS Prestige Construction remodels kitchens and bathrooms throughout metro Atlanta, including cabinets, countertops, showers and flooring. We also install kitchen backsplashes, bathroom wall tile and shower tile, with material, layout and grout selections planned around your home.",
+    "meta_title": "Kitchen & Bathroom Remodeling in Atlanta | CPS Prestige",
+    "meta_description": "Kitchen and bathroom remodeling and tile installation across metro Atlanta. Cabinets, countertops, showers, backsplashes and flooring by CPS Prestige Construction.",
+    "features": []
+  },
+  "services/basement-remodeling": {
+    "photos": [
+      {
+        "file": "basement-1-polished.webp",
+        "alt": "Finished basement entertainment room with a wood ceiling, game table and pool table",
+        "caption": "Basement remodeling inspiration: room to gather, relax and entertain."
+      },
+      {
+        "file": "basement-2-polished.webp",
+        "alt": "Finished basement with a wood bar, warm flooring and a comfortable television lounge",
+        "caption": "Basement finishing inspiration: coordinated floors, lighting and living areas."
+      }
+    ],
+    "buttons": [],
+    "layout": "feature",
+    "heading": "Atlanta Basement Remodeling",
+    "tagline": "Make downstairs your favorite place to be.",
+    "introduction": "Turn unused square footage into a comfortable extension of your home. CPS Prestige Construction provides basement remodeling and basement finishing throughout metro Atlanta, from an unfinished space to a fresh start for an existing basement.",
+    "meta_title": "Atlanta Basement Remodeling & Finishing | CPS Prestige",
+    "meta_description": "Basement remodeling and finishing across metro Atlanta. Plan a family room, home office or entertainment space with CPS Prestige Construction. Call 404-542-8325.",
+    "features": [
+      {
+        "heading": "A basement built around your life.",
+        "text": "A family room, game room, home office or entertainment space starts with a plan for how you want to use it. We help you discuss the layout and finish choices that bring your basement renovation together."
+      },
+      {
+        "heading": "Comfort in the details.",
+        "text": "Review framing, drywall, flooring, painting and lighting needs as part of your project scope. Existing conditions, moisture concerns and any required approvals should be discussed before basement finishing begins."
+      }
+    ],
+    "area_text": "Based in Acworth and serving all of metro Atlanta, including Atlanta, Marietta, Kennesaw, Smyrna, Roswell, Sandy Springs, Alpharetta and surrounding communities."
+  },
+  "services/interior-spaces-remodeling": {
+    "photos": [],
+    "buttons": []
+  },
+  "services/exterior-areas-remodeling": {
+    "photos": [
+      {
+        "file": "exterior-7-polished.webp",
+        "alt": "Textured stone exterior wall with a long window, greenery and paved outdoor space"
+      },
+      {
+        "file": "exterior-1-polished.webp",
+        "alt": "Home with horizontal siding, shingle accents, white trim and red shutters"
+      },
+      {
+        "file": "exterior-2-polished.webp",
+        "alt": "Two-story red brick home with white trim and black shutters"
+      },
+      {
+        "file": "exterior-3-polished.webp",
+        "alt": "Home with gray siding, white porch columns and decorative balcony railings"
+      },
+      {
+        "file": "exterior-4-polished.webp",
+        "alt": "Home with beige siding and stone accents around the front entrance"
+      },
+      {
+        "file": "exterior-5-polished.webp",
+        "alt": "Two-story home with blue-gray siding, black shutters and white trim"
+      },
+      {
+        "file": "exterior-6-polished.webp",
+        "alt": "Gray-sided home with a covered front porch and decorative gable trim"
+      }
+    ],
+    "buttons": [],
+    "layout": "feature",
+    "gallery_layout": "exterior",
+    "heading": "Atlanta Exterior Remodeling",
+    "tagline": "A fresh welcome. From the outside in.",
+    "introduction": "Siding, masonry, stucco and outdoor living improvements for homes across metro Atlanta.",
+    "meta_title": "Atlanta Exterior Remodeling | Siding, Brick & Stucco | CPS",
+    "meta_description": "Exterior remodeling across metro Atlanta: siding, brick, stone, stucco, tile, painting, patios, decks and more. Call CPS Prestige Construction at 404-542-8325.",
+    "features": [],
+    "rundown_heading": "Exterior services",
+    "rundown": [
+      {
+        "heading": "Siding",
+        "text": "Installation, replacement and trim updates.",
+        "href": "/services/siding-replacement-remodeling/"
+      },
+      {
+        "heading": "Brick & stone",
+        "text": "Masonry finishes and exterior improvements."
+      },
+      {
+        "heading": "Stucco",
+        "text": "Surface repairs and finish updates."
+      },
+      {
+        "heading": "Exterior tile",
+        "text": "Tile for patios, entryways and outdoor surfaces."
+      },
+      {
+        "heading": "Exterior painting",
+        "text": "Fresh finishes for siding, trim and exterior surfaces.",
+        "href": "/services/exterior-painting/"
+      },
+      {
+        "heading": "Patios",
+        "text": "Updates for more inviting outdoor living.",
+        "href": "/services/patio-remodeling/"
+      },
+      {
+        "heading": "Decks",
+        "text": "New construction, repairs and cleaning.",
+        "href": "/services/deck-construction-repair/"
+      },
+      {
+        "heading": "Porches",
+        "text": "Covered spaces for everyday relaxation.",
+        "href": "/services/porch-construction/"
+      },
+      {
+        "heading": "Roofing",
+        "text": "Roof improvements within your project scope.",
+        "href": "/services/roof-remodeling/"
+      },
+      {
+        "heading": "Windows & doors",
+        "text": "Installation and replacement for exterior openings.",
+        "href": "/services/window-door-installation/"
+      }
+    ],
+    "area_heading": "Serving all of metro Atlanta.",
+    "area_text": "Based in Acworth. Serving Atlanta, Marietta, Kennesaw, Smyrna, Roswell and surrounding metro communities."
+  },
+  "services/patio-remodeling": {
+    "photos": [],
+    "buttons": []
+  },
+  "services/roof-remodeling": {
+    "photos": [],
+    "buttons": []
+  },
+  "services/siding-replacement-remodeling": {
+    "photos": [],
+    "buttons": []
+  },
+  "services/deck-construction-repair": {
+    "photos": [
+      {
+        "file": "deck-construction.webp",
+        "alt": "Covered wooden deck with timber railings and a white ceiling"
+      }
+    ],
+    "buttons": [],
+    "layout": "video-feature",
+    "heading": "Atlanta Deck Construction & Repair",
+    "tagline": "More fresh air. More room to enjoy home.",
+    "introduction": "Create an outdoor space for quiet mornings, family gatherings and everyday relaxation. CPS Prestige Construction builds and repairs decks for homeowners across all of metro Atlanta.",
+    "meta_title": "Atlanta Deck Construction & Repair | CPS Prestige",
+    "meta_description": "Deck construction, installation and repair throughout metro Atlanta. Plan a new deck or restore your outdoor space with CPS Prestige. Call 404-542-8325.",
+    "video": {
+      "file": "deck-outdoor-living.mp4",
+      "poster": "deck-outdoor-living-poster.webp",
+      "caption": "Outdoor living inspiration: a covered deck with a poolside view."
+    },
+    "features": [
+      {
+        "heading": "Build a deck around the way you live.",
+        "text": "Discuss the layout, materials, railings and covered areas that suit your home. We help you define the scope of a new deck installation before construction begins."
+      },
+      {
+        "heading": "Give your existing deck a fresh start.",
+        "text": "Talk through deck repairs, cleaning and the condition of the existing structure. The work, materials and any required approvals are reviewed as part of your project estimate."
+      }
+    ],
+    "area_heading": "Deck building and repair across metro Atlanta.",
+    "area_text": "Based in Acworth and serving all of metro Atlanta, including Atlanta, Marietta, Kennesaw, Smyrna, Roswell, Sandy Springs, Alpharetta and surrounding communities."
+  },
+  "services/house-additions": {
+    "photos": [],
+    "buttons": []
+  },
+  "services/porch-construction": {
+    "photos": [],
+    "buttons": []
+  },
+  "services/structural-construction": {
+    "photos": [],
+    "buttons": []
+  },
+  "services/window-door-installation": {
+    "photos": [],
+    "buttons": []
+  },
+  "services/interior-painting": {
+    "photos": [],
+    "buttons": []
+  },
+  "services/exterior-painting": {
+    "photos": [
+      {
+        "file": "exterior-painting-1-polished.webp",
+        "alt": "Blue-gray painted porch siding and floor with white trim and a black front door"
+      },
+      {
+        "file": "exterior-painting-3-polished.webp",
+        "alt": "Blue house exterior with white trim, a front porch and visible roofline",
+        "caption": "Exterior color inspiration."
+      },
+      {
+        "file": "exterior-painting-2-polished.webp",
+        "alt": "Painter using an extension roller on the exterior wall of a house",
+        "caption": "Exterior painting in progress: illustrative photo."
+      }
+    ],
+    "buttons": [],
+    "layout": "feature",
+    "gallery_layout": "painting",
+    "compact_hero": true,
+    "heading": "Atlanta Exterior Painting",
+    "tagline": "",
+    "introduction": "CPS Prestige Construction paints siding, trim, doors and other exterior surfaces throughout metro Atlanta. We review surface conditions, preparation and colors with you before work begins.",
+    "meta_title": "Atlanta Exterior House Painting | CPS Prestige",
+    "meta_description": "Exterior house painting across metro Atlanta. Refresh siding, trim, doors and other exterior surfaces with CPS Prestige Construction. Call 404-542-8325.",
+    "features": [],
+    "area_heading": "Serving all of metro Atlanta.",
+    "area_text": "Based in Acworth. Serving Atlanta, Marietta, Kennesaw, Smyrna, Roswell and surrounding metro communities.",
+    "consolidated_copy": true
+  },
+  "services/drywall-installation-finishing": {
+    "photos": [
+      {
+        "file": "drywall-1-polished.webp",
+        "alt": "Bright finished white room with decorative wall molding and smooth wall surfaces"
+      },
+      {
+        "file": "drywall-2-polished.webp",
+        "alt": "Worker in a digitally CPS-branded white shirt preparing a wall surface",
+        "caption": "Wall preparation illustration. CPS shirt branding digitally added."
+      },
+      {
+        "file": "drywall-3-polished.webp",
+        "alt": "Worker in a digitally CPS-branded white shirt sanding a drywall ceiling",
+        "caption": "Drywall finishing illustration. CPS shirt branding digitally added."
+      }
+    ],
+    "buttons": [],
+    "layout": "feature",
+    "gallery_layout": "process",
+    "heading": "Atlanta Drywall Installation & Finishing",
+    "tagline": "Smooth walls. A beautiful foundation.",
+    "introduction": "Bring your rooms together with carefully installed drywall and a clean, consistent finish. CPS Prestige Construction provides drywall installation and finishing for remodeling and construction projects across all of metro Atlanta.",
+    "meta_title": "Atlanta Drywall Installation & Finishing | CPS Prestige",
+    "meta_description": "Drywall installation and finishing for Atlanta-area homes. Discuss walls, ceilings and remodeling preparation with CPS Prestige Construction. Call 404-542-8325.",
+    "features": [
+      {
+        "heading": "A clean start for walls and ceilings.",
+        "text": "Plan drywall installation around the condition of your space and the scope of your renovation. Discuss wall and ceiling surfaces, framing and preparation before work begins."
+      },
+      {
+        "heading": "The finish makes the difference.",
+        "text": "Drywall finishing brings the seams and surfaces together before painting. Review the preparation and finish requirements for your project with CPS so the next steps are clear."
+      }
+    ],
+    "area_heading": "Drywall services throughout metro Atlanta.",
+    "area_text": "Based in Acworth and serving all of metro Atlanta, including Atlanta, Marietta, Kennesaw, Smyrna, Roswell, Sandy Springs, Alpharetta and surrounding communities."
+  },
+  "services/flooring-installation": {
+    "layout": "feature",
+    "compact_hero": true,
+    "consolidated_copy": true,
+    "gallery_layout": "flooring",
+    "heading": "Atlanta Flooring Installation",
+    "tagline": "",
+    "introduction": "We install laminate, wood and tile flooring for homes throughout metro Atlanta. CPS Prestige Construction helps you choose the right materials and handles installation and finishing details for a clean, coordinated result.",
+    "meta_title": "Atlanta Flooring Installation | Laminate, Wood & Tile | CPS",
+    "meta_description": "Laminate, wood and tile flooring installation for homes across metro Atlanta. Contact CPS Prestige Construction to discuss materials and request a free quote.",
+    "photos": [
+      {
+        "file": "flooring-installation-9-polished.webp",
+        "alt": "Bright living room with warm wood flooring and a fireplace"
+      },
+      {
+        "file": "flooring-installation-3-polished.webp",
+        "alt": "Sunroom with blue and white patterned tile flooring"
+      },
+      {
+        "file": "flooring-installation-8-polished.webp",
+        "alt": "Modern living space with polished gray flooring"
+      },
+      {
+        "file": "flooring-installation-1-polished.webp",
+        "alt": "Bathroom with tan tile, a glass shower and bathtub"
+      },
+      {
+        "file": "flooring-installation-2-polished.webp",
+        "alt": "Marble-look tiled bathroom with blue cabinets"
+      },
+      {
+        "file": "flooring-installation-6-polished.webp",
+        "alt": "Installer measuring a flooring plank beside a doorway"
+      },
+      {
+        "file": "flooring-installation-10-polished.webp",
+        "alt": "Sunlit room with wood flooring and a ceiling fan"
+      },
+      {
+        "file": "flooring-installation-7-polished.webp",
+        "alt": "White shower tile with a black and white accent"
+      },
+      {
+        "file": "flooring-installation-4-polished.webp",
+        "alt": "Black and white geometric tile pattern"
+      },
+      {
+        "file": "flooring-installation-5-polished.webp",
+        "alt": "Outdoor paving pattern"
+      }
+    ],
+    "features": [],
+    "buttons": []
+  },
+  "services/additions-structural-construction": {
+    "photos": [
+      {
+        "file": "additions-1-polished.webp",
+        "alt": "House under construction with wood sheathing and roof underlayment"
+      },
+      {
+        "file": "additions-2-polished.webp",
+        "alt": "Interior wood framing with exposed ceiling joists and a worker"
+      },
+      {
+        "file": "additions-3-polished.webp",
+        "alt": "Two-story house framing with wood sheathing and construction equipment"
+      },
+      {
+        "file": "additions-4-polished.webp",
+        "alt": "House under construction with exposed framing, sheathing and garage openings"
+      }
+    ],
+    "buttons": [],
+    "heading": "Atlanta Home Additions & Structural Construction",
+    "introduction": "CPS Prestige Construction provides house additions, structural construction and interior framing throughout metro Atlanta. We plan the layout, materials and scope around your home, with required approvals reviewed before construction begins.",
+    "tagline": "More room. Built around your home.",
+    "meta_title": "Atlanta Home Additions & Structural Construction | CPS",
+    "meta_description": "Home additions, structural construction and interior framing across metro Atlanta. Discuss your project and request a free quote from CPS Prestige Construction.",
+    "layout": "feature",
+    "compact_hero": true,
+    "consolidated_copy": true,
+    "gallery_layout": "additions",
+    "features": []
+  },
+  "services/decks-porches-patios": {
+    "photos": [
+      {
+        "file": "deck-construction.webp",
+        "alt": "Covered wooden deck with timber railings and a white ceiling"
+      }
+    ],
+    "buttons": [],
+    "layout": "video-feature",
+    "heading": "Atlanta Decks, Porches & Patios",
+    "tagline": "",
+    "introduction": "Deck construction and repair, porch construction and patio remodeling across metro Atlanta. Create a new outdoor space or update the one you have.",
+    "meta_title": "Atlanta Decks, Porches & Patios | CPS Prestige",
+    "meta_description": "Deck construction and repair, porch construction and patio remodeling across metro Atlanta. Create a new outdoor space or update the one you have.",
+    "video": {
+      "file": "deck-outdoor-living.mp4",
+      "poster": "deck-outdoor-living-poster.webp",
+      "caption": "Outdoor living inspiration: a covered deck with a poolside view."
+    },
+    "features": [
+      {
+        "heading": "Decks, porches and patios",
+        "text": "New deck construction, deck repairs and cleaning, porch construction and patio remodeling. Discuss materials, railings, covered areas and the condition of the existing structure during your estimate."
+      }
+    ],
+    "area_heading": "Outdoor living projects across metro Atlanta.",
+    "area_text": "Based in Acworth and serving all of metro Atlanta, including Atlanta, Marietta, Kennesaw, Smyrna, Roswell, Sandy Springs, Alpharetta and surrounding communities."
+  },
+  "services/exterior-remodeling": {
+    "photos": [
+      {
+        "file": "exterior-7-polished.webp",
+        "alt": "Textured stone exterior wall with a long window, greenery and paved outdoor space"
+      },
+      {
+        "file": "exterior-1-polished.webp",
+        "alt": "Home with horizontal siding, shingle accents, white trim and red shutters"
+      },
+      {
+        "file": "exterior-2-polished.webp",
+        "alt": "Two-story red brick home with white trim and black shutters"
+      },
+      {
+        "file": "exterior-3-polished.webp",
+        "alt": "Home with gray siding, white porch columns and decorative balcony railings"
+      },
+      {
+        "file": "exterior-4-polished.webp",
+        "alt": "Home with beige siding and stone accents around the front entrance"
+      },
+      {
+        "file": "exterior-5-polished.webp",
+        "alt": "Two-story home with blue-gray siding, black shutters and white trim"
+      },
+      {
+        "file": "exterior-6-polished.webp",
+        "alt": "Gray-sided home with a covered front porch and decorative gable trim"
+      }
+    ],
+    "buttons": [],
+    "layout": "feature",
+    "gallery_layout": "exterior",
+    "heading": "Atlanta Exterior Remodeling",
+    "tagline": "",
+    "introduction": "Exterior remodeling across metro Atlanta, including siding, brick, stone, stucco, exterior tile, roofing, windows and doors.",
+    "meta_title": "Atlanta Exterior Remodeling | CPS Prestige",
+    "meta_description": "Exterior remodeling across metro Atlanta, including siding, brick, stone, stucco, exterior tile, roofing, windows and doors.",
+    "features": [],
+    "rundown_heading": "Exterior services",
+    "rundown": [
+      {
+        "heading": "Siding",
+        "text": "Installation, replacement and trim updates."
+      },
+      {
+        "heading": "Brick & stone",
+        "text": "Masonry finishes and exterior improvements."
+      },
+      {
+        "heading": "Stucco",
+        "text": "Surface repairs and finish updates."
+      },
+      {
+        "heading": "Exterior tile",
+        "text": "Tile for patios, entryways and outdoor surfaces."
+      },
+      {
+        "heading": "Roofing",
+        "text": "Roof improvements within your project scope."
+      },
+      {
+        "heading": "Windows & doors",
+        "text": "Installation and replacement for exterior openings."
+      }
+    ],
+    "area_heading": "Serving all of metro Atlanta.",
+    "area_text": "Based in Acworth. Serving Atlanta, Marietta, Kennesaw, Smyrna, Roswell and surrounding metro communities."
+  },
+  "services/interior-basement-remodeling": {
+    "photos": [
+      {
+        "file": "basement-1-polished.webp",
+        "alt": "Finished basement entertainment room with a wood ceiling, game table and pool table",
+        "caption": "Basement remodeling inspiration: room to gather, relax and entertain."
+      },
+      {
+        "file": "basement-2-polished.webp",
+        "alt": "Finished basement with a wood bar, warm flooring and a comfortable television lounge",
+        "caption": "Basement finishing inspiration: coordinated floors, lighting and living areas."
+      }
+    ],
+    "buttons": [],
+    "layout": "feature",
+    "heading": "Atlanta Interior & Basement Remodeling",
+    "tagline": "",
+    "introduction": "Basement finishing and interior remodeling across metro Atlanta. Turn unused space into useful rooms and update existing interiors with layouts and finishes that suit your home.",
+    "meta_title": "Atlanta Interior & Basement Remodeling | CPS Prestige",
+    "meta_description": "Basement finishing and interior remodeling across metro Atlanta. Turn unused space into useful rooms and update existing interiors with layouts and finishes that suit your home.",
+    "features": [],
+    "area_text": "Based in Acworth and serving all of metro Atlanta, including Atlanta, Marietta, Kennesaw, Smyrna, Roswell, Sandy Springs, Alpharetta and surrounding communities.",
+    "compact_hero": true,
+    "consolidated_copy": true,
+    "gallery_layout": "combined"
+  },
+  "services/painting-drywall": {
+    "photos": [
+      {
+        "file": "drywall-1-polished.webp",
+        "alt": "Bright finished white room with decorative wall molding and smooth wall surfaces"
+      },
+      {
+        "file": "exterior-painting-1-polished.webp",
+        "alt": "Blue-gray painted porch siding and floor with white trim and a black front door"
+      },
+      {
+        "file": "exterior-painting-3-polished.webp",
+        "alt": "Blue house exterior with white trim, a front porch and visible roofline"
+      },
+      {
+        "file": "exterior-painting-2-polished.webp",
+        "alt": "Painter using an extension roller on the exterior wall of a house"
+      },
+      {
+        "file": "drywall-2-polished.webp",
+        "alt": "Worker in a digitally CPS-branded white shirt preparing a wall surface",
+        "caption": "Wall preparation illustration. CPS shirt branding digitally added."
+      },
+      {
+        "file": "drywall-3-polished.webp",
+        "alt": "Worker in a digitally CPS-branded white shirt sanding a drywall ceiling",
+        "caption": "Drywall finishing illustration. CPS shirt branding digitally added."
+      }
+    ],
+    "buttons": [],
+    "layout": "feature",
+    "gallery_layout": "combined",
+    "compact_hero": true,
+    "heading": "Atlanta Painting & Drywall",
+    "tagline": "",
+    "introduction": "Interior and exterior painting, drywall installation and drywall finishing for homes across metro Atlanta. We prepare walls, ceilings and exterior surfaces for clean, coordinated finishes.",
+    "meta_title": "Atlanta Painting & Drywall | CPS Prestige",
+    "meta_description": "Interior and exterior painting, drywall installation and drywall finishing for homes across metro Atlanta. We prepare walls, ceilings and exterior surfaces for clean, coordinated finishes.",
+    "features": [],
+    "area_heading": "Serving all of metro Atlanta.",
+    "area_text": "Based in Acworth. Serving Atlanta, Marietta, Kennesaw, Smyrna, Roswell and surrounding metro communities.",
+    "consolidated_copy": true
+  }
+}
