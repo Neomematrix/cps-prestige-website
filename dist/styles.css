@@ -20,3 +20,5 @@ nav a[aria-current]{color:var(--red);text-decoration:underline;text-underline-of
 
 /* Home and Services: larger photos with compact supporting text. */
 :is(.page-home,.page-services) .service>img,:is(.page-home,.page-services) .service>.service-media{height:400px;width:100%}:is(.page-home,.page-services) .service>div:not(.service-media){min-height:200px;padding:18px 24px}:is(.page-home,.page-services) .service .eyebrow{line-height:20px;margin-bottom:8px}:is(.page-home,.page-services) .service h3{margin-bottom:10px}:is(.page-home,.page-services) .service p{line-height:1.5;margin-bottom:12px}:is(.page-home,.page-services) .service .text-link{line-height:1.5}
+
+.service-list{margin:0;padding-left:20px}.service-list li{margin:0 0 10px}.service-list a{text-underline-offset:4px}.service-list a:hover{color:var(--red)}.steps article[id]{scroll-margin-top:120px}

@@ -29,8 +29,8 @@
     },
     {
       "page": "construction/index.html",
-      "title": "Atlanta Construction, Additions & Decks | CPS Prestige",
-      "description": "Construction, home additions, deck installation and repairs across metro Atlanta. Discuss your project with CPS Prestige Construction. Free estimates.",
+      "title": "Atlanta Additions, Decks & Porch Construction | CPS",
+      "description": "House additions, decks, porches, structural construction, and window and door installation or replacement across metro Atlanta. Request a free quote.",
       "robots": "index,follow,max-image-preview:large",
       "schema_types": [
         "GeneralContractor",
@@ -132,7 +132,7 @@
     {
       "page": "remodeling/index.html",
       "title": "Atlanta Home, Kitchen & Bathroom Remodeling | CPS",
-      "description": "Kitchen, bathroom, basement and home remodeling throughout metro Atlanta. CPS Prestige Construction brings care and experience to your renovation.",
+      "description": "Kitchen, bathroom, basement, interior and exterior remodeling across metro Atlanta. CPS Prestige also handles patios, roof remodeling and siding replacement.",
       "robots": "index,follow,max-image-preview:large",
       "schema_types": [
         "GeneralContractor",
