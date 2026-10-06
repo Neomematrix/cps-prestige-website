@@ -6,7 +6,7 @@ Complete editable source for a modern static website. No paid theme, framework s
 
 - Edit page content and SEO fields in `build.py`.
 - Edit appearance in `dist/styles.css`.
-- Edit mobile navigation and quote email behavior in `dist/main.js`.
+- Edit mobile navigation and quote email fallback behavior in `dist/main.js`.
 - Run `python3 build.py` to regenerate HTML.
 - Preview locally: `python3 -m http.server 8000 --directory dist`, then open http://localhost:8000.
 - Do not open HTML by double-clicking; root-relative navigation needs a web server.
@@ -30,7 +30,20 @@ Upload the contents of `dist/` to a static host. The host must serve `/folder/in
 
 ## Quote requests
 
-Phone and email links work. The quote form opens the visitor's email app; it does not send automatically and has no backend database. Visitors must press Send in their email app. Call and email alternatives are visible. To collect leads directly from browsers, connect a form handler before launch and update the privacy notice. Do not insert private API keys into browser JavaScript.
+Phone and email links remain available in both modes. The **single missing destination is `QUOTE_FORM_URL`: the public HTTPS submission URL issued by CPS's chosen form handler**. No endpoint has been supplied or invented; the checked-in site continues to use the existing email fallback.
+
+- Leave `QUOTE_FORM_URL` unset or empty: the form opens the visitor's email app with their details. They must review and press Send themselves. This website does not receive or store those entries.
+- Set `QUOTE_FORM_URL` at build time: the generated form posts directly from the browser to that URL, including without JavaScript. The browser navigates to the handler's response page. It does not also open email or retry by email, so a request is not knowingly sent twice. The handler must display its own success/error result; this site does not claim inbox delivery.
+
+For local or independent hosting, set the real URL as an environment variable and run `python3 build.py`. For GitHub Pages, add a repository Actions **variable** named `QUOTE_FORM_URL` under Settings → Secrets and variables → Actions → Variables, then run “Publish CPS website” (or push to main). The Pages workflow passes the variable to the build. Clearing the variable and rebuilding restores email mode. The URL must be absolute HTTPS, without embedded credentials or a fragment; invalid nonempty values fail the build instead of silently using email.
+
+The handler must accept a standard `application/x-www-form-urlencoded` POST with fields `name`, `email`, `phone` (optional), `location`, `service` and `message`, and return a browser-readable confirmation/error page. A native form POST does not require browser fetch/CORS support. Choose and configure a handler that delivers requests to CPS; any spam controls, server validation, rate limits and retention settings belong at the handler. A JSON-only API or a service requiring a private browser authorization key is not compatible with this form contract.
+
+`QUOTE_FORM_URL` is public: it appears in generated HTML. Supply only the public submission URL, never a secret API key, password, bearer token or private credential, including in its query string. Configure private credentials and the recipient mailbox on the handler's server/provider dashboard. No private credential is needed by this repository or browser code.
+
+Run the isolated build checks with `python3 -m unittest discover -s tests -v` and the JavaScript behavior checks with `node --test tests/test_quote_behavior.cjs`. They use reserved test domains and never submit leads.
+
+The build updates contact instructions, the submit button and privacy notice together. Email mode explains that details pass through the visitor's email provider. Direct mode identifies the form-service hostname, lists the submitted fields and explains that CPS and the service process the request and may retain submission/technical data. Once the real service is chosen, confirm its handling and retention policies and revise the notice for any additional provider-specific disclosures before launch. Rebuild and verify the generated contact/privacy pages and a real test request with the chosen handler; no live delivery can be verified until the URL is supplied.
 
 ## Verify business details before public launch
 
