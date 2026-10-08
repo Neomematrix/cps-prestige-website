@@ -69,3 +69,13 @@ nav a[aria-current]{color:var(--red);text-decoration:underline;text-underline-of
 .google-review-actions{display:flex;flex-wrap:wrap;align-items:center;gap:20px;margin-top:28px}
 .google-review-secondary{font-weight:700;text-decoration:underline;text-underline-offset:4px}
 @media(max-width:700px){.google-reviews-section{padding-top:48px;padding-bottom:48px}.google-reviews-head{grid-template-columns:1fr;gap:24px}.google-review-score{padding:24px}}
+
+/* Full-width Google Reviews presentation: header above the rotating widget. */
+.google-reviews-section{padding-top:72px;padding-bottom:72px}
+.google-reviews-section .google-reviews-head{display:block;width:100%;margin:0 0 30px}
+.google-reviews-section .google-reviews-head h2{max-width:none;margin:12px 0 12px}
+.google-reviews-section .google-reviews-head p{max-width:850px;margin-bottom:0}
+.google-reviews-section .google-review-widget{display:block;clear:both;width:100%;max-width:none;min-width:0;margin:0 auto}
+.google-reviews-section .google-review-widget>div{width:100%;max-width:100%}
+.google-reviews-section .google-review-actions{justify-content:center;margin-top:30px}
+@media(max-width:700px){.google-reviews-section{padding-top:44px;padding-bottom:48px}.google-reviews-section .google-reviews-head{margin-bottom:24px}.google-reviews-section .google-review-actions{justify-content:flex-start}}
